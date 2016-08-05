@@ -18,10 +18,11 @@
             android:textSize="@dimen/textview_font_size"
             android:text="Status: " />
         <TextView
+            android:id="@+id/connect_status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textview_font_size"
-            android:text="Connected" />
+            android:text="@string/unconnected" />
     </LinearLayout>
 
     <LinearLayout
@@ -35,6 +36,7 @@
             android:textSize="@dimen/textview_font_size"
             android:text="Data: " />
         <TextView
+            android:id="@+id/received_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="@dimen/textview_font_size"
